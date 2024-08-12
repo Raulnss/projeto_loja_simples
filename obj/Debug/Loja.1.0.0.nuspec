@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Loja</id>
+    <version>1.0.0</version>
+    <authors>Loja</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="66ed58adbfd385c4818aa020a19245297547077c" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Aspose.PDF" version="24.7.0" exclude="Build,Analyzers" />
+        <dependency id="BCrypt.Net-Core" version="1.6.0" exclude="Build,Analyzers" />
+        <dependency id="MySql.Data" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="PDFsharp" version="6.1.1" exclude="Build,Analyzers" />
+        <dependency id="PdfSharpCore" version="1.3.65" exclude="Build,Analyzers" />
+        <dependency id="sautinsoft.pdf" version="2024.6.18" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\escola\progamação\testeCS\Loja\obj\Debug\net8.0-windows\pt-BR\Loja.resources.dll" target="lib\net8.0-windows7.0\pt-BR\Loja.resources.dll" />
+    <file src="C:\escola\progamação\testeCS\Loja\bin\Debug\net8.0-windows\Loja.runtimeconfig.json" target="lib\net8.0-windows7.0\Loja.runtimeconfig.json" />
+    <file src="C:\escola\progamação\testeCS\Loja\bin\Debug\net8.0-windows\Loja.dll" target="lib\net8.0-windows7.0\Loja.dll" />
+  </files>
+</package>
